@@ -1,16 +1,3 @@
-# repo158265
-
-
-##G³ówne informacje
-Implementacja klasy myexp()
-
-##Projekt utworzony przy pomocy:
-Notepad++, https://www.w3schools.com/java/default.asp
-
-
-##Skrypt
-
-```
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -37,5 +24,3 @@ double myexp(double x,double precision)
     }while(fabs(pow(x,i)/num)>precision);
     return sum;
 }
-
-```
